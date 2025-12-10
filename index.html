@@ -515,27 +515,45 @@
                 max-width: 260px;
             }
             #contact-modal > div {
-                padding: 25px 18px !important;
-                max-width: 95vw !important;
+                padding: 18px 12px !important;
+                max-width: 98vw !important;
+                width: calc(100vw - 24px) !important;
             }
             #contact-modal h2 {
-                font-size: 1.1rem !important;
-                margin-bottom: 18px !important;
+                font-size: 0.95rem !important;
+                margin-bottom: 12px !important;
+            }
+            #contact-modal input,
+            #contact-modal textarea {
+                margin-bottom: 10px !important;
+                padding: 8px 10px !important;
+                font-size: 0.75rem !important;
+            }
+            #contact-modal form > div[style*="flex"] {
+                flex-direction: column !important;
+                gap: 6px !important;
+            }
+            #contact-modal button {
+                width: 100% !important;
+                padding: 10px 8px !important;
+                font-size: 0.75rem !important;
             }
             #success-modal > div,
             #error-modal > div {
-                padding: 30px 18px !important;
-                max-width: 95vw !important;
+                padding: 20px 12px !important;
+                max-width: 98vw !important;
+                width: calc(100vw - 24px) !important;
             }
             #success-modal h2,
             #error-modal h2 {
-                font-size: 1.2rem !important;
-                margin-bottom: 10px !important;
+                font-size: 1rem !important;
+                margin-bottom: 8px !important;
             }
             #success-modal p,
             #error-modal p {
-                font-size: 0.85rem !important;
-                margin-bottom: 18px !important;
+                font-size: 0.75rem !important;
+                margin-bottom: 14px !important;
+                line-height: 1.3;
             }
         }
     </style>
