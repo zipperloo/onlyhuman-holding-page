@@ -444,9 +444,10 @@
                 letter-spacing: 0.08em;
             }
             .message {
-                font-size: 0.65rem;
-                max-width: 95vw;
+                font-size: 0.48rem;
+                max-width: 90vw;
                 white-space: normal;
+                line-height: 1.1;
             }
             .cortical-fold:nth-child(1) {
                 width: 250px;
@@ -475,21 +476,29 @@
             textarea {
                 width: auto !important;
                 max-width: 100% !important;
-                padding: 12px 14px !important;
-                font-size: 0.95rem !important;
+                padding: 10px 12px !important;
+                font-size: 0.9rem !important;
                 height: auto !important;
                 margin: 0 !important;
             }
             button {
                 width: 100% !important;
                 max-width: 100% !important;
-                padding: 12px 20px !important;
-                font-size: 0.95rem !important;
-                height: 48px !important;
+                padding: 10px 16px !important;
+                font-size: 0.85rem !important;
+                height: auto !important;
+                min-height: 44px !important;
                 flex-shrink: 0;
             }
             #contact-button {
                 bottom: 50px !important;
+                padding: 10px 14px !important;
+                font-size: 0.75rem !important;
+                width: auto !important;
+                max-width: 70vw !important;
+                white-space: normal !important;
+                line-height: 1.2 !important;
+                height: auto !important;
             }
             .floating-message {
                 font-size: 0.75rem;
@@ -501,6 +510,29 @@
                 font-size: 0.85rem;
                 padding: 0.6rem 1rem;
                 max-width: 260px;
+            }
+            #contact-modal > div {
+                padding: 25px 18px !important;
+                max-width: 95vw !important;
+            }
+            #contact-modal h2 {
+                font-size: 1.1rem !important;
+                margin-bottom: 18px !important;
+            }
+            #success-modal > div,
+            #error-modal > div {
+                padding: 30px 18px !important;
+                max-width: 95vw !important;
+            }
+            #success-modal h2,
+            #error-modal h2 {
+                font-size: 1.2rem !important;
+                margin-bottom: 10px !important;
+            }
+            #success-modal p,
+            #error-modal p {
+                font-size: 0.85rem !important;
+                margin-bottom: 18px !important;
             }
         }
     </style>
